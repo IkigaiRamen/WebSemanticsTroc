@@ -7,8 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.ByteArrayOutputStream;
@@ -58,5 +56,60 @@ public class SparqlController {
         return convertResultSetToJson(resultSet);
     }
 
+    @GetMapping("/annoncesWithDetails")
+    public ResponseEntity<String> getAnnoncesWithDetails() {
+        ResultSet resultSet = sparqlService.getAnnoncesWithDetails();
+        return convertResultSetToJson(resultSet);
+    }
+
+
+
+    @GetMapping("/getVenuesWithDetails")
+    public ResponseEntity<String> getVenuesWithDetails() {
+        ResultSet resultSet = sparqlService.getVenuesWithDetails();
+        return convertResultSetToJson(resultSet);
+    }
+
+    @GetMapping("/getBarterRequests")
+    public ResponseEntity<String> getBarterRequests() {
+        ResultSet resultSet = sparqlService.getBarterRequests();
+        return convertResultSetToJson(resultSet);
+    }
+
+    @GetMapping("/getReportsWithDetails")
+    public ResponseEntity<String> getReportsWithDetails() {
+        ResultSet resultSet = sparqlService.getReportsWithDetails();
+        return convertResultSetToJson(resultSet);
+    }
+
+    @GetMapping("/getResponsesWithDetails")
+    public ResponseEntity<String> getResponsesWithDetails() {
+        ResultSet resultSet = sparqlService.getResponsesWithDetails();
+        return convertResultSetToJson(resultSet);
+    }
+
+    @GetMapping("/getReviewsWithDetails")
+    public ResponseEntity<String> getReviewsWithDetails() {
+        ResultSet resultSet = sparqlService.getReviewsWithDetails();
+        return convertResultSetToJson(resultSet);
+    }
+
+    @GetMapping("/getDigitalProductsWithDetails")
+    public ResponseEntity<String> getDigitalProductsWithDetails() {
+        ResultSet resultSet = sparqlService.getDigitalProductsWithDetails();
+        return convertResultSetToJson(resultSet);
+    }
+
+    @GetMapping("/getForumsWithDetails")
+    public ResponseEntity<String> getForumsWithDetails() {
+        ResultSet resultSet = sparqlService.getForumsWithDetails();
+        return convertResultSetToJson(resultSet);
+    }
+
+    @GetMapping("/getCartsWithDetails")
+    public ResponseEntity<String> getCartsWithDetails() {
+        ResultSet resultSet = sparqlService.getCartsWithDetails();
+        return convertResultSetToJson(resultSet);
+    }
 }
 
