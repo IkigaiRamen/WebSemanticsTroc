@@ -1,0 +1,1690 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.owl-ontologies.com/Troc.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.owl-ontologies.com/Troc.owl">
+    <Prefix name="" IRI="http://owl-ontologies-com/Troc.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Admin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Annonce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterRequest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Cart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Client"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Comments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#DigitalProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#External"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Forum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Local"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#OnSiteEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#OnlineEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#PHysicalProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Report"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Response"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Review"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#category"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#A_une_reponse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Ajoute-des_categorie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Ajoute_au_panier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Ajoute_son_feedback"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Contient_des_feedbacks"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Correspond_á"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Offre_une_demande_troc"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Organise_un_evenement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Se_Situe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#contient_des_commentaires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#contient_des_produits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#envoie_un_signal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#est_de_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#publie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#AnnoceProprities"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterProprities"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartNbProduct"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartProp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CategoryName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CategoryProprities"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CommentNbLikes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Commentaires"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CommentsProp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#DescriptionCategory"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Echange"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventImage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventLocation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventProprities"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormImage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormProprities"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ForumNbLike"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ForumPost"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ForumProp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Phone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Photo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductCategory"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductImage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductProprities"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductUnits"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductWeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Receiv_erName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReportCause"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReportProp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ResponseMessage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ResponseProp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ResponseStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewComments"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewProprities"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Rubrique"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#SenderName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Star_Rating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Telephone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Ticket_price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Titre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#UserEmail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#UserProp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueCapacity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueImage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueProprities"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#nom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#pwd"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#website"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Admin1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Cart1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Client1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Comment1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Electronique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Forum1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Propsition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Report_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Response1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Review1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#electronique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#form1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Admin"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Client"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#DigitalProduct"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#External"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Local"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#OnSiteEvent"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#OnlineEvent"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#PHysicalProduct"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#category"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Cart"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Admin"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Client"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#DigitalProduct"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#PHysicalProduct"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#External"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Local"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#OnSiteEvent"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#OnlineEvent"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Admin"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Admin1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Cart"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Cart1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Client"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Client1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Comments"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Comment1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#category"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Electronique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#OnlineEvent"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Forum"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Forum1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#DigitalProduct"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterRequest"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Propsition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Report"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Report_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Response"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Response1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Review"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Review1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Local"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Annonce"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#electronique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Form"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#form1"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#UserEmail"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Admin1"/>
+        <Literal>admin@admin@gmail.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#nom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Admin1"/>
+        <Literal>Wael</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#pwd"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Admin1"/>
+        <Literal>admin123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartNbProduct"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Cart1"/>
+        <Literal>3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartStatus"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Cart1"/>
+        <Literal>Full</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#UserEmail"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Client1"/>
+        <Literal>Client@gmail.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#nom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Client1"/>
+        <Literal>Ahmed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#pwd"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Client1"/>
+        <Literal>Client123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CommentNbLikes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Comment1"/>
+        <Literal>43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Commentaires"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Comment1"/>
+        <Literal>DM me for more details </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CategoryName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Electronique"/>
+        <Literal>Electronique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#DescriptionCategory"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Electronique"/>
+        <Literal>electronic devises</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventDate"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event1"/>
+        <Literal>12-12-2024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventDescription"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event1"/>
+        <Literal>Remote gathering to offer your  products </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventImage"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event1"/>
+        <Literal>c:/images/event.png</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventLocation"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event1"/>
+        <Literal>Google Meet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event1"/>
+        <Literal>EXchange</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventStatus"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event1"/>
+        <Literal>Confirmed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Ticket_price"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event1"/>
+        <Literal>5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ForumNbLike"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Forum1"/>
+        <Literal>44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ForumPost"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Forum1"/>
+        <Literal>Hello </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductAddress"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product1"/>
+        <Literal>La petite Ariana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductCategory"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product1"/>
+        <Literal>Electronique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductDescription"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product1"/>
+        <Literal>fast charging</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductImage"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product1"/>
+        <Literal>c:/images/products.png</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product1"/>
+        <Literal>Chargeur</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductPrice"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product1"/>
+        <Literal>40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductStatus"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product1"/>
+        <Literal>Active</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductUnits"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product1"/>
+        <Literal>2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductWeight"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product1"/>
+        <Literal>3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterDescription"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Propsition"/>
+        <Literal>Ecran full HD 92% screen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterPrice"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Propsition"/>
+        <Literal>1200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterTitle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Propsition"/>
+        <Literal>Ecran PC MSI</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReportCause"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Report_1"/>
+        <Literal>Fraud</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#SenderName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Report_1"/>
+        <Literal>ahmed belaid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ResponseMessage"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Response1"/>
+        <Literal>Approved</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ResponseStatus"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Response1"/>
+        <Literal>En traitement</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewComments"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Review1"/>
+        <Literal>good product</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewStatus"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Review1"/>
+        <Literal>Active</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Star_Rating"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Review1"/>
+        <Literal>2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Phone"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue1"/>
+        <Literal>54545254</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueAddress"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue1"/>
+        <Literal>ElKram</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueCapacity"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue1"/>
+        <Literal>12000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueDescription"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue1"/>
+        <Literal>foire internationnale de kram</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueImage"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue1"/>
+        <Literal>c:/images/venue.png</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue1"/>
+        <Literal>Foire de Kram</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#website"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue1"/>
+        <Literal>Elkram.tn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Description"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#electronique"/>
+        <Literal>fast charging 5G</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Echange"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#electronique"/>
+        <Literal>Pc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Photo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#electronique"/>
+        <Literal>c:/images/phone1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Rubrique"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#electronique"/>
+        <Literal>Electronique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Titre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#electronique"/>
+        <Literal>Iphone 13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#email"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#electronique"/>
+        <Literal>fadwa.berrich@esprit.tn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormDescription"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#form1"/>
+        <Literal>Form  ...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormImage"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#form1"/>
+        <Literal>c:/images/form.png</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Receiv_erName"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#form1"/>
+        <Literal>Ahmed belaid</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#A_une_reponse"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterRequest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Ajoute-des_categorie"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Admin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Ajoute_au_panier"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Client"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Ajoute_son_feedback"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Client"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Contient_des_feedbacks"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Correspond_á"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Report"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Offre_une_demande_troc"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Client"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Organise_un_evenement"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Admin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Se_Situe"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#contient_des_commentaires"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Forum"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#contient_des_produits"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Cart"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#envoie_un_signal"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Client"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#est_de_type"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Annonce"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#publie"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Client"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#A_une_reponse"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Response"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Ajoute-des_categorie"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#category"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Ajoute_au_panier"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Cart"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Ajoute_son_feedback"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Review"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Contient_des_feedbacks"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Review"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Correspond_á"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Form"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Offre_une_demande_troc"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterRequest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Organise_un_evenement"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Se_Situe"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#contient_des_commentaires"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Comments"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#contient_des_produits"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#envoie_un_signal"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Report"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#est_de_type"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#category"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#publie"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Annonce"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterDescription"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterPrice"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterProprities"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterTitle"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartNbProduct"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartProp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartProp"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartStatus"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartProp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CategoryName"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CategoryProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CommentNbLikes"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CommentsProp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Commentaires"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CommentsProp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Description"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#AnnoceProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#DescriptionCategory"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CategoryProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Echange"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#AnnoceProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventDate"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventDescription"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventImage"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventLocation"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventName"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventStatus"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormDescription"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormImage"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ForumNbLike"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ForumProp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ForumPost"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ForumProp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Phone"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Photo"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#AnnoceProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductAddress"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductCategory"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductDescription"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductImage"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductName"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductPrice"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductStatus"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductUnits"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductWeight"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Receiv_erName"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReportCause"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReportProp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ResponseMessage"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ResponseProp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ResponseStatus"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ResponseProp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewComments"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewStatus"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Rubrique"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#AnnoceProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#SenderName"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReportProp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Star_Rating"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Telephone"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#AnnoceProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Ticket_price"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Titre"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#AnnoceProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#UserEmail"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#UserProp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueAddress"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueCapacity"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueDescription"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueImage"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueName"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#email"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#AnnoceProprities"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#nom"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#UserProp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#pwd"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#UserProp"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#website"/>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueProprities"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterDescription"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterPrice"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterTitle"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartNbProduct"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartStatus"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CategoryName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CommentNbLikes"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Commentaires"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Description"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#DescriptionCategory"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Echange"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventDate"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventDescription"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventImage"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventLocation"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventProprities"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventStatus"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormDescription"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormImage"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ForumNbLike"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ForumPost"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Phone"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Photo"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductAddress"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductCategory"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductDescription"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductImage"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductPrice"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductStatus"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductUnits"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductWeight"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Receiv_erName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReportCause"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ResponseMessage"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ResponseStatus"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewComments"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewStatus"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Rubrique"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#SenderName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Star_Rating"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Ticket_price"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Titre"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#UserEmail"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueAddress"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueCapacity"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueDescription"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueImage"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#email"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#nom"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#pwd"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#website"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartNbProduct"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Cart"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartStatus"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Cart"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CategoryName"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#category"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CommentNbLikes"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Comments"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Commentaires"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Comments"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Description"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Annonce"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#DescriptionCategory"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#category"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Echange"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Annonce"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventDate"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventDescription"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventImage"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventLocation"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventName"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventStatus"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormDescription"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Form"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormImage"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Form"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ForumNbLike"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Forum"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ForumPost"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Forum"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Phone"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Photo"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Annonce"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductAddress"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductCategory"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductDescription"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductImage"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductName"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductPrice"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductStatus"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductUnits"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductWeight"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Product"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Receiv_erName"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Form"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReportCause"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Report"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ResponseMessage"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Response"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ResponseStatus"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Response"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewComments"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Review"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewStatus"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Review"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Rubrique"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Annonce"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#SenderName"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Form"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Star_Rating"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Review"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Telephone"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Annonce"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Ticket_price"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Event"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Titre"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Annonce"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#UserEmail"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueAddress"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueCapacity"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueDescription"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueImage"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueName"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#email"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#nom"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#pwd"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#website"/>
+        <Class IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Venue"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterPrice"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#BarterTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartNbProduct"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CartStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CategoryName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#CommentNbLikes"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Commentaires"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#DescriptionCategory"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Echange"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventImage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventLocation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#EventStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#FormImage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ForumNbLike"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ForumPost"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Phone"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Photo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductCategory"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductImage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductPrice"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductUnits"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ProductWeight"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Receiv_erName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReportCause"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ResponseMessage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ResponseStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewComments"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#ReviewStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Rubrique"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#SenderName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Star_Rating"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Telephone"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Ticket_price"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#Titre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#UserEmail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueCapacity"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueImage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#VenueName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#pwd"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/asus/ontologies/2023/9/untitled-ontology-7#website"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

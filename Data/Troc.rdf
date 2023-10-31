@@ -1,0 +1,1233 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://owl-ontologies-com/Troc.owl#"
+     xml:base="http://owl-ontologies-com/Troc.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:Troc="http://www.owl-ontologies.com/Troc.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.owl-ontologies.com/Troc.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#A_une_reponse -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#A_une_reponse">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#BarterRequest"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Troc.owl#Response"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Ajoute-des_categorie -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Ajoute-des_categorie">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Admin"/>
+        <rdfs:range rdf:resource="htthttp://www.owl-ontologies.com/Troc.owl#category"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Ajoute_au_panier -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Ajoute_au_panier">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Client"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Troc.owl#Cart"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Ajoute_son_feedback -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Ajoute_son_feedback">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Client"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Troc.owl#Review"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Contient_des_feedbacks -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Contient_des_feedbacks">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Product"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Troc.owl#Review"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Correspond_á -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Correspond_á">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Report"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Troc.owl#Form"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Offre_une_demande_troc -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Offre_une_demande_troc">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Client"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Troc.owl#BarterRequest"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Organise_un_evenement -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Organise_un_evenement">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Admin"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Troc.owl#Evenment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Se_Situe -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Se_Situe">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Evenment"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Troc.owl#Venue"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#contient_des_commentaires -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#contient_des_commentaires">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Forum"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Troc.owl#Comments"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#contient_des_produits -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#contient_des_produits">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Cart"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Troc.owl#Product"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#envoie_un_signal -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#envoie_un_signal">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Client"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Troc.owl#Report"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#est_de_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#est_de_type">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Annonce"/>
+        <rdfs:range rdf:resource="htthttp://www.owl-ontologies.com/Troc.owl#category"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#publie -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#publie">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Client"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Troc.owl#Annonce"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#AnnoceProprities -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#AnnoceProprities"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#BarterDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#BarterDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#BarterProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#BarterPrice -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#BarterPrice">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#BarterProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#BarterProprities -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#BarterProprities">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#BarterTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#BarterTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#BarterProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#CartNbProduct -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#CartNbProduct">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#CartProp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Cart"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#CartProp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#CartProp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#CartStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#CartStatus">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#CartProp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Cart"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#CategoryName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#CategoryName">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#CategoryProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="htthttp://www.owl-ontologies.com/Troc.owl#category"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#CategoryProprities -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#CategoryProprities"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#CommentNbLikes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#CommentNbLikes">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#CommentsProp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Comments"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Commentaires -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Commentaires">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#CommentsProp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Comments"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#CommentsProp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#CommentsProp"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Description">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#AnnoceProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Annonce"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#DescriptionCategory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#DescriptionCategory">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#CategoryProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="htthttp://www.owl-ontologies.com/Troc.owl#category"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Echange -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Echange">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#AnnoceProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Annonce"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#EventDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#EventDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#EventProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Evenment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#EventImage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#EventImage">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#EventProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Evenment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#EventLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#EventLocation">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#EventProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Evenment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#EventName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#EventName">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#EventProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Evenment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#EventProprities -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#EventProprities">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#EventStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#EventStatus">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#EventProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Evenment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#FormDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#FormDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#FormProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Form"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#FormImage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#FormImage">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#FormProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Form"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#FormProprities -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#FormProprities"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ForumNbLike -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ForumNbLike">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ForumProp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Forum"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ForumPost -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ForumPost">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ForumProp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Forum"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ForumProp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ForumProp"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Phone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Phone">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#VenueProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Venue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Photo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Photo">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#AnnoceProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Annonce"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ProductAddress -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ProductAddress">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ProductProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Product"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ProductCategory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ProductCategory">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ProductProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Product"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ProductDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ProductDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ProductProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Product"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ProductImage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ProductImage">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ProductProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Product"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ProductName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ProductName">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ProductProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Product"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ProductPrice -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ProductPrice">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ProductProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Product"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ProductProprities -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ProductProprities"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ProductStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ProductStatus">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ProductProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Product"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ProductUnits -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ProductUnits">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ProductProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Product"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ProductWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ProductWeight">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ProductProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Product"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Receiv_erName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Receiv_erName">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#FormProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Form"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ReportCause -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ReportCause">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ReportProp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ReportProp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ReportProp"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ResponseMessage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ResponseMessage">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ResponseProp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Response"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ResponseProp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ResponseProp"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ResponseStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ResponseStatus">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ResponseProp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Response"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ReviewComments -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ReviewComments">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ReviewProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ReviewProprities -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ReviewProprities"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#ReviewStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#ReviewStatus">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ReviewProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Rubrique -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Rubrique">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#AnnoceProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Annonce"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#SenderName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#SenderName">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ReportProp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Form"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Star_Rating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Star_Rating">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#ReviewProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Telephone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Telephone">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#AnnoceProprities"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Annonce"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Ticket_price -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Ticket_price">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#EventProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Evenment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Titre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#Titre">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#AnnoceProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Annonce"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#UserEmail -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#UserEmail">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#UserProp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#UserProp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#UserProp"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#VenueAddress -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#VenueAddress">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#VenueProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Venue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#VenueCapacity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#VenueCapacity">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#VenueProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Venue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#VenueDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#VenueDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#VenueProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Venue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#VenueImage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#VenueImage">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#VenueProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Venue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#VenueName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#VenueName">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#VenueProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Venue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#VenueProprities -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#VenueProprities"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#email">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#AnnoceProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Venue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#nom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#nom">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#UserProp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#pwd -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#pwd">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#UserProp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#User"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#website -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#website">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#VenueProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Venue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#EventDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Troc.owl#EventDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#EventProprities"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Troc.owl#Evenment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- htthttp://www.owl-ontologies.com/Troc.owl#category -->
+
+    <owl:Class rdf:about="htthttp://www.owl-ontologies.com/Troc.owl#category"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Admin -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#Admin">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#User"/>
+        <owl:disjointWith rdf:resource="http://www.owl-ontologies.com/Troc.owl#Client"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Annonce -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#Annonce">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Troc.owl#est_de_type"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="htthttp://www.owl-ontologies.com/Troc.owl#category"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#BarterRequest -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#BarterRequest"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Cart -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#Cart">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Troc.owl#contient_des_produits"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.owl-ontologies.com/Troc.owl#Product"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Client -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#Client">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Troc.owl#Offre_une_demande_troc"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.owl-ontologies.com/Troc.owl#BarterRequest"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Comments -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#Comments"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#DigitalProduct -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#DigitalProduct">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#Product"/>
+        <owl:disjointWith rdf:resource="http://www.owl-ontologies.com/Troc.owl#PHysicalProduct"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Evenment -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#Evenment">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/Troc.owl#Se_Situe"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.owl-ontologies.com/Troc.owl#Venue"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#External -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#External">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#Venue"/>
+        <owl:disjointWith rdf:resource="http://www.owl-ontologies.com/Troc.owl#Local"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Form -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#Form"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Forum -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#Forum"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Local -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#Local">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#Venue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#OnSiteEvent -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#OnSiteEvent">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#Evenment"/>
+        <owl:disjointWith rdf:resource="http://www.owl-ontologies.com/Troc.owl#OnlineEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#OnlineEvent -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#OnlineEvent">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#Evenment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#PHysicalProduct -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#PHysicalProduct">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Troc.owl#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Product -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#Product"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Report -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#Report"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Response -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#Response"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Review -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#Review"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#User -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#User"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Venue -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Troc.owl#Venue"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Admin1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Troc.owl#Admin1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Troc.owl#Admin"/>
+        <Troc:UserEmail xml:lang="gmail.com">admin@admin</Troc:UserEmail>
+        <Troc:nom>Wael</Troc:nom>
+        <Troc:pwd>admin123</Troc:pwd>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Cart1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Troc.owl#Cart1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Troc.owl#Cart"/>
+        <Troc:CartNbProduct>3</Troc:CartNbProduct>
+        <Troc:CartStatus>Full</Troc:CartStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Client1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Troc.owl#Client1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Troc.owl#Client"/>
+        <Troc:UserEmail xml:lang="gmail.com">Client</Troc:UserEmail>
+        <Troc:nom>Ahmed</Troc:nom>
+        <Troc:pwd>Client123</Troc:pwd>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Comment1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Troc.owl#Comment1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Troc.owl#Comments"/>
+        <Troc:CommentNbLikes>43</Troc:CommentNbLikes>
+        <Troc:Commentaires>DM me for more details </Troc:Commentaires>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Electronique -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Troc.owl#Electronique">
+        <rdf:type rdf:resource="htthttp://www.owl-ontologies.com/Troc.owl#category"/>
+        <Troc:CategoryName>Electronique</Troc:CategoryName>
+        <Troc:DescriptionCategory>electronic devises</Troc:DescriptionCategory>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Event1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Troc.owl#Event1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Troc.owl#OnlineEvent"/>
+        <Troc:EventDescription>Remote gathering to offer your  products </Troc:EventDescription>
+        <Troc:EventImage>c:/images/event.png</Troc:EventImage>
+        <Troc:EventLocation>Google Meet</Troc:EventLocation>
+        <Troc:EventName>EXchange</Troc:EventName>
+        <Troc:EventStatus>Confirmed</Troc:EventStatus>
+        <Troc:Ticket_price>5</Troc:Ticket_price>
+        <Troc:EventDate>12-12-2024</Troc:EventDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Forum1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Troc.owl#Forum1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Troc.owl#Forum"/>
+        <Troc:ForumNbLike>44</Troc:ForumNbLike>
+        <Troc:ForumPost>Hello </Troc:ForumPost>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Product1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Troc.owl#Product1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Troc.owl#DigitalProduct"/>
+        <Troc:ProductAddress>La petite Ariana</Troc:ProductAddress>
+        <Troc:ProductCategory>Electronique</Troc:ProductCategory>
+        <Troc:ProductDescription>fast charging</Troc:ProductDescription>
+        <Troc:ProductImage>c:/images/products.png</Troc:ProductImage>
+        <Troc:ProductName>Chargeur</Troc:ProductName>
+        <Troc:ProductPrice>40</Troc:ProductPrice>
+        <Troc:ProductStatus>Active</Troc:ProductStatus>
+        <Troc:ProductUnits>2</Troc:ProductUnits>
+        <Troc:ProductWeight>3</Troc:ProductWeight>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Propsition -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Troc.owl#Propsition">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Troc.owl#BarterRequest"/>
+        <Troc:BarterDescription>Ecran full HD 92% screen</Troc:BarterDescription>
+        <Troc:BarterPrice>1200</Troc:BarterPrice>
+        <Troc:BarterTitle>Ecran PC MSI</Troc:BarterTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Report_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Troc.owl#Report_1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Troc.owl#Report"/>
+        <Troc:ReportCause>Fraud</Troc:ReportCause>
+        <Troc:SenderName>ahmed belaid</Troc:SenderName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Response1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Troc.owl#Response1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Troc.owl#Response"/>
+        <Troc:ResponseMessage>Approved</Troc:ResponseMessage>
+        <Troc:ResponseStatus>En traitement</Troc:ResponseStatus>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Review1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Troc.owl#Review1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Troc.owl#Review"/>
+        <Troc:ReviewComments>good product</Troc:ReviewComments>
+        <Troc:ReviewStatus>Active</Troc:ReviewStatus>
+        <Troc:Star_Rating>2</Troc:Star_Rating>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#Venue1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Troc.owl#Venue1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Troc.owl#Local"/>
+        <Troc:Phone>54545254</Troc:Phone>
+        <Troc:VenueAddress>ElKram</Troc:VenueAddress>
+        <Troc:VenueCapacity>12000</Troc:VenueCapacity>
+        <Troc:VenueDescription>foire internationnale de kram</Troc:VenueDescription>
+        <Troc:VenueImage>c:/images/venue.png</Troc:VenueImage>
+        <Troc:VenueName>Foire de Kram</Troc:VenueName>
+        <Troc:website>Elkram.tn</Troc:website>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#electronique -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Troc.owl#electronique">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Troc.owl#Annonce"/>
+        <Troc:Description>fast charging 5G</Troc:Description>
+        <Troc:Echange>Pc</Troc:Echange>
+        <Troc:Photo>c:/images/phone1</Troc:Photo>
+        <Troc:Rubrique>Electronique</Troc:Rubrique>
+        <Troc:Titre>Iphone 13</Troc:Titre>
+        <Troc:email xml:lang="esprit.tn">fadwa.berrich</Troc:email>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Troc.owl#form1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Troc.owl#form1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Troc.owl#Form"/>
+        <Troc:FormDescription>Form  ...</Troc:FormDescription>
+        <Troc:FormImage>c:/images/form.png</Troc:FormImage>
+        <Troc:Receiv_erName>Ahmed belaid</Troc:Receiv_erName>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
