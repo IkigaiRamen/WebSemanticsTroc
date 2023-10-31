@@ -113,5 +113,10 @@ public class SparqlController {
         ResultSet resultSet = sparqlService.getCartsWithDetails();
         return convertResultSetToJson(resultSet);
     }
+    @GetMapping("/getFormsWithDetails")
+    public ResponseEntity<String> getFormsWithDetails() {
+        ResultSet resultSet = sparqlService.getFormsWithDetails();
+        return convertResultSetToJson(resultSet);
+    }
 }
 
